@@ -54,10 +54,13 @@ Set your settings first and then start the script.
 ## SETTINGS
 
 ```python
-EMAIL = "email@localhost" # Set the email for login
-LOGIN_URL = "http://localhost/user/login/" # Set the login page url
-ERROR_DIV_CLASS = "error-message" # Set the error message class name
+EMAIL = "email@localhost"  # Set the email for login
+LOGIN_URL = "http://localhost:8000/login/"  # Set the login page url
+ERROR_DIV_CLASS = "error-message"  # Set the error message class name
+MAX_PASS_LENGTH = 10
+RESPONSE_DELAY = 1
 DEBUG_FORM = True  # Set this to True to print form debugging information
+DEBUG_FORM_LENGTH = 1000  # Set this to True to print form debugging information
 ```
 
 ### USER AGENT
