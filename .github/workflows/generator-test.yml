@@ -1,0 +1,36 @@
+name: Brute Force Generator Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          echo "Pip has been upgraded."
+
+      - name: Check Python version and working directory
+        run: |
+          echo "Checking the Python version and working directory..."
+          python --version
+          echo "Current working directory:"
+          pwd
+
+      - name: Run Brute Force Generator Test
+        run: |
+          echo "Running the Brute Force Test..."
+          python generator-test.py
+          echo "Test completed."
