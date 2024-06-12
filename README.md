@@ -186,11 +186,11 @@ Choose template and report a bug or feature you want [issues](https://github.com
 
 # CONTRIBUTE
 
-Please read the [contributing](https://github.com/prod3v3loper/bruteforce/blob/master/.github/CONTRIBUTING.md) to contribute.
+Please read the [contributing](https://github.com/prod3v3loper/bruteforce/blob/main/.github/CONTRIBUTING.md) to contribute.
 
 # VULNERABILITY
 
-Please use the Security section for privately reporting a [vulnerability](https://github.com/prod3v3loper/bruteforce/security).
+Please use the Security section for privately reporting a [vulnerability](https://github.com/prod3v3loper/bruteforce/.github/SECURITY.md).
 
 # AUTHOR
 
@@ -198,4 +198,4 @@ Please use the Security section for privately reporting a [vulnerability](https:
 
 # License
 
-[MIT](https://github.com/prod3v3loper/php-mvc-professional/blob/master/LICENSE)
+[MIT](https://github.com/prod3v3loper/php-mvc-professional/blob/main/LICENSE)
