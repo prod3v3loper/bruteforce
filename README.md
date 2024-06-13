@@ -198,4 +198,4 @@ Please use the Security section for privately reporting a [vulnerability](https:
 
 # License
 
-[MIT](https://github.com/prod3v3loper/php-mvc-professional/blob/main/LICENSE)
+[MIT](https://github.com/prod3v3loper/bruteforce/blob/main/LICENSE)
